@@ -99,8 +99,8 @@ foundYou.addEventListener('click', function() {
 let products = document.querySelectorAll('main > article');
 
 products.forEach((product) => {
-    let type = poducts.querySelector('h3');
-    poducts.addEventListener('click', () => {
+    let type = products.querySelector('h3');
+    products.addEventListener('click', () => {
         console.log(`Hi, im article ${type.innerText}`);
     });
 });
