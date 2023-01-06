@@ -104,5 +104,3 @@ products.forEach((product) => {
         console.log(`Hi, im article ${type.innerText}`);
     });
 });
-
-
